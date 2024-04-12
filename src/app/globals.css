@@ -740,7 +740,7 @@ ul {
     	margin-block-end: 0em;
 	display: grid;
   	grid-template-columns: 1fr 1fr 1fr;
-  	grid-gap: 10svh;
+  	grid-gap: 5svh;
 	padding: 0;
 }
 
@@ -750,7 +750,7 @@ li {
 }
 
 .section-divider {
-  margin-top: 15svh;
+  margin-top: 17.5svh;
   margin-bottom: 5svh;
 }
 
@@ -857,7 +857,7 @@ li {
 
 @media (max-width: 960px) {
 	ul {
-		grid-gap: 9svh;
+		grid-gap: 4.5svh;
 	}
 
 	.spacing {
@@ -874,7 +874,7 @@ li {
 @media (max-width: 480px) {
 	ul {
     		grid-template-columns: 1fr 1fr;
-		grid-gap: 8svh;
+		grid-gap: 4svh;
 	}
 
 	.spacing {
