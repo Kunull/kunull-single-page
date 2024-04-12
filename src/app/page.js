@@ -24,9 +24,6 @@ const Home = () => {
 			</div>
 			
 			<div className="backgroundEffect"></div>
-			{/* <div className="navbarContainer">
-            <h2 className="previous glitch layers" data-text="KW"><div>KW ►</div></h2>
-        </div> */}
 			
 			<Navbar
 				button=""
@@ -34,7 +31,7 @@ const Home = () => {
 				buttonHref=""
 				slash=""
 				slashClassName=""
-				page="KW"
+				page="KUNULL"
 				pageClassName="currentPage glitch layers"
 				pageOption1="certifications clickable"
 				ariaLabel1="Go to my Certifications page"
@@ -66,65 +63,112 @@ const Home = () => {
 */}	
 					<span className="personal">, A COMPUTER ENGINEERING AND CYBER SECURITY STUDENT.</span>
 				</p>
+
+
+
+
+
+				<div className="currentPage section-divider">
+					<span >KUNULL / CERTIFICATIONS ►</span>
+				</div>
+			
+
+				<p className='spacing'>
+					<ul>
+						<li>
+							<div className="capital">
+								<Button
+									button=""
+									buttonClassName="ejpt clickable pages"
+									buttonHref=""
+									target="_blank"
+									aria-label="Check out my EJPT certificate"
+								/>
+							</div>
+							<p className="description">eLearnSecurity Junior Penetration Tester.</p>
+						</li>
 				
-				<p className='spacing'>
-					<span className="personal">THIS WEBSITE IS A MEANS TO SHOWCASE MY </span>
-					<Button 
-						button="" 
-						buttonClassName="projects clickable pages" 
-						buttonHref="/projects" 
-						ariaLabel="Go to my Projects page"
-					/>
-					<span className="personal"> AS WELL AS </span>
-					<Button
-						button=""
-						buttonClassName="certifications clickable pages"
-						buttonHref="/certifications"
-						ariaLabel="Go to my Certifications page"
-					/>
-{/*					
-					<span className="personal"> AND ALSO SHARE MY </span>
-					<Button
-						button=""
-						buttonClassName="experience clickable pages"
-						buttonHref="/experience"
-						aria-label="Go to my Experience page"
-					/>
-*/}
-					<span className="personal">.</span>
-				</p>								
-								
-				<p className='spacing'>
-					<span className="personal">IN MY FREE TIME I LIKE TO SOLVE CTF CHALLENGES AND MAKE </span>
-					<Button 
-						button="" 
-						buttonClassName="writeUps clickable pages" 
-						buttonHref="https://kunalwalavalkar.gitbook.io/write-ups/" 
-						target="_blank"
-						ariaLabel="Go to my Write-Ups page"
-					/>
-					<span className="personal"> FOR THE SAME.</span>
-				</p>								
-								
-				<p className='spacing'>
-					<span className="personal">SEND ME AN </span>
-					<Button
-						button=""
-						buttonClassName="email clickable pages"
-						buttonHref="mailto:walavalkarkunal@skiff.com"
-						target="_blank"
-						ariaLabel="Send me an e-mail"
-					/>
-					<span className="personal"> IF YOU'D LIKE TO GET IN TOUCH. YOU CAN USE MY PUBLIC </span>
-					<Button
-						button=""
-						buttonClassName="key clickable pages"
-						buttonHref="https://kunalwalavalkar.vercel.app/kunalwalavalkar_public_key.txt"
-						target="_blank"
-						ariaLabel="Use my pgp key"
-					/>
-					<span className="personal"> FOR ENCRYPTION.</span>
+						<li>
+							<div className="capital">
+								<Button
+									button=""
+									buttonClassName="google clickable pages"
+									buttonHref="/assets/certs/Google_Cybersecurity_Professional_Certificate.pdf"
+									target="_blank"
+									aria-label="Check out my Google Cybersecurity certificate"
+								/>
+							</div>
+							<p className="description">Google Cybersecurity Professional Certitificate.</p>
+						</li>
+		
+						<li>
+							<div className="capital">
+								<Button
+									button=""
+									buttonClassName="icca clickable pages"
+									buttonHref=""
+									target="_blank"
+									aria-label="Check out my ICCA certificate"
+								/>
+							</div>
+							<p className="description">INE Certified Cloud Associate.</p>
+						</li>
+		
+						<li>
+							<div className="capital">
+								<Button
+									button=""
+									buttonClassName="nse clickable pages"
+									buttonHref="https://kunalwalavalkar.vercel.app/NSE_Certification.pdf"
+									target="_blank"
+									aria-label="Check out my NSE certificate"
+								/>
+							</div>
+							<p className="description">Fortinet Training Institute Network Security Expert.</p>
+						</li>
+					</ul>
 				</p>
+
+
+				<div className="currentPage section-divider">
+					<span >KUNULL / EXPERIENCE ►</span>
+				</div>
+
+				<p className='spacing'>
+					<ul className="singleColumnUl spacing">
+						<li>
+							
+								<Button
+									button=""
+									buttonClassName="company2 clickable pages"
+									buttonHref=""
+									target="_blank"
+								/>
+							
+							<p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio eu feugiat pretium nibh ipsum consequat. Platea dictumst vestibulum rhoncus est. At volutpat diam ut venenatis tellus in metus vulputate eu. Eget mauris pharetra et ultrices neque. Nec nam aliquam sem et tortor consequat id porta nibh. Tempor commodo ullamcorper a lacus. Donec pretium vulputate sapien nec. Nibh mauris cursus mattis molestie a. Orci sagittis eu volutpat odio facilisis mauris sit. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis. Amet risus nullam eget felis eget nunc lobortis.</p>
+						</li>
+		
+
+						<li>
+							
+								<Button 
+									button="" 
+									buttonClassName="company1 clickable pages" 
+									buttonHref="https://cybersecuredindia.com/" 
+									target="_blank"
+									aria-label="Go to the Cyber Secured India website"
+								/>
+							
+							<p className="description">VAPT Intern</p>
+							<p className="description">March 2023 - May 2023</p>
+							<p className="description">Performed penetration tests to simulate real-world attacks on systems and networks.</p>	
+							<p className="description">Used tools like Burp Suite and OWASP ZAP for web application security testing.</p>
+							<p className="description">Assessed the security of web applications by identifying and exploiting vulnerabilities.</p>
+						</li>
+					</ul>
+
+				</p>
+
 			</main>
 
 			<Footer
