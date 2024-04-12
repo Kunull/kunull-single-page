@@ -69,7 +69,7 @@ html {
 	--font-primary: "VCR OSD Mono",monospace;
  	--font-size-primary: clamp(24px,4.2vw,84px);
 	--font-size-secondary: clamp(14px,1.6vw,32px);
-	--font-size-tertiary: clamp(20px,2.6vw,52px);
+	--font-size-tertiary: clamp(20px,2.2vw,52px);
 }
 
 body .invertCursor{
@@ -86,7 +86,7 @@ body {
 	animation: textShadow 1.6s infinite;
 /* 	text-shadow: .24vw .22vw rgba(0,150,180,.45),-.24vw -.22vw rgba(150,0,50,.45); */
 /* 	text-shadow: var(--shadow-x-distance) var(--shadow-y-distance) 0 rgba(0,160,180,.45),calc(var(--shadow-x-distance)*-1) calc(var(--shadow-y-distance)*-1) 0 rgba(150,0,50,.45); */
- 	text-shadow: var(--shadow-x-distance) var(--shadow-y-distance) 0 rgba(30,120,180,.5),calc(var(--shadow-x-distance)*-1) calc(var(--shadow-y-distance)*-1) 0 rgba(150,25,100,.5);
+ 	/* text-shadow: var(--shadow-x-distance) var(--shadow-y-distance) 0 rgba(30,120,180,.5),calc(var(--shadow-x-distance)*-1) calc(var(--shadow-y-distance)*-1) 0 rgba(150,25,100,.5); */
 /* 	text-shadow: 0 0 0.3vw #fff; */
 	cursor: url('/assets/images/cursor-default.png') 0 0, auto;
 }
@@ -727,6 +727,11 @@ ul {
 li {
 	margin: 0;
 	list-style-type: none;
+}
+
+.section-divider {
+  margin-top: 25svh;
+  margin-bottom: 5svh;
 }
 
 .singleColumnUl {
