@@ -89,6 +89,15 @@
 }
 
 
+.ejpt::after {
+  content:"EJPT";
+}
+
+.ejpt:hover::after {
+  content:"3JP7";
+}
+
+
 .email::after {
   content:"EMAIL";
 }
@@ -176,6 +185,15 @@
 
 .huntr:hover::after {
   content:"HUN7R";
+}
+
+
+.icca::after {
+  content:"ICCA";
+}
+
+.icca:hover::after {
+  content:"1CC4";
 }
 
 
