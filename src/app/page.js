@@ -33,11 +33,11 @@ const Home = () => {
 				slashClassName=""
 				page="KUNULL"
 				pageClassName="currentPage glitch layers"
-				pageOption1="certifications clickable"
-				ariaLabel1="Go to my Certifications page"
+//				pageOption1="certifications clickable"
+//				ariaLabel1="Go to my Certifications page"
 //				pageOption2="experience clickable"
-				pageOption3="projects clickable"
-				ariaLabel3="Go to my Projects page"
+//				pageOption3="projects clickable"
+//				ariaLabel3="Go to my Projects page"
 			/>
 					
 			<main className="capital">
