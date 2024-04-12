@@ -722,7 +722,7 @@ p {
 
 .spacing {
 	z-index: 10;
-	margin-bottom: 10svh;
+	margin-bottom: 8svh;
 }
 
 .redacted {
@@ -857,7 +857,7 @@ li {
 
 @media (max-width: 960px) {
 	ul {
-		grid-gap: 4.5svh;
+		grid-gap: 7svh;
 	}
 
 	.spacing {
@@ -874,7 +874,7 @@ li {
 @media (max-width: 480px) {
 	ul {
     		grid-template-columns: 1fr 1fr;
-		grid-gap: 4svh;
+		grid-gap: 6svh;
 	}
 
 	.spacing {
