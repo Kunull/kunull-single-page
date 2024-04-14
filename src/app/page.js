@@ -74,7 +74,7 @@ const Home = () => {
 			
 
 				<p className='spacing'>
-					<ul>
+					<ul className="twoColumnUl spacing">
 						<li>
 							<div className="capital">
 								<Button
