@@ -882,7 +882,12 @@ li {
 
 @media (max-width: 480px) {
 	ul {
-    		grid-template-columns: 1fr 1fr;
+    		grid-template-columns: 1fr;
+		grid-gap: 6svh;
+	}
+
+	.threeColumnUl {
+    		grid-template-columns: 1fr;
 		grid-gap: 6svh;
 	}
 
