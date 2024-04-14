@@ -251,12 +251,12 @@
 }
 
 
-.opensoc::after {
-  content:"OPENSOC";
+.ossoc::after {
+  content:"O.S.S.O.C.";
 }
 
-.opensoc:hover::after {
-  content:"0P3N50C";
+.ossoc:hover::after {
+  content:"0.5.5.0.C.";
 }
 
 
