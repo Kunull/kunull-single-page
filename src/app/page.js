@@ -131,7 +131,7 @@ const Home = () => {
 
 
 				<div className="currentPage section-divider">
-					<span>KUNULL / CERTIFICATIONS ►</span>
+					<span>KUNULL / PROJECTS ►</span>
 				</div>
 			
 
