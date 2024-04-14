@@ -739,16 +739,16 @@ ul {
 	margin-block-start: 0em;
     	margin-block-end: 0em;
 	display: grid;
-  	grid-template-columns: 1fr 1fr 1fr;
+  	grid-template-columns: 1fr 1fr;
   	grid-gap: 5svh;
 	padding: 0;
 }
 
-.twoColumnList {
+.threeColumnList {
 	margin-block-start: 0em;
     	margin-block-end: 0em;
 	display: grid;
-  	grid-template-columns: 1fr 1fr;
+  	grid-template-columns: 1fr 1fr 1fr;
   	grid-gap: 5svh;
 	padding: 0;
 }
