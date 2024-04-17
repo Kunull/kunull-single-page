@@ -1,7 +1,7 @@
 import localFont from 'next/font/local'
 import './globals.css'
 
-const myFont = localFont({ src: '../../public/assets/fonts/VCROSDMono.woff2' })
+const myFont = localFont({ src: '/assets/fonts/VCROSDMono.woff2' })
 
 export const metadata = {
   title: 'Create Next App',
