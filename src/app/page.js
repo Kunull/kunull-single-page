@@ -80,7 +80,7 @@ const Home = () => {
 								<Button
 									button=""
 									buttonClassName="ejpt clickable pages"
-									buttonHref=""
+									buttonHref="/assets/certifications/eLearnSecurity-Junior-Penetration-Tester.pdf"
 									target="_blank"
 									aria-label="Check out my EJPT certificate"
 								/>
@@ -93,7 +93,7 @@ const Home = () => {
 								<Button
 									button=""
 									buttonClassName="google clickable pages"
-									buttonHref="/assets/certs/Google_Cybersecurity_Professional_Certificate.pdf"
+									buttonHref="/assets/certifications/Google-Cybersecurity-Professional-Certificate.pdf"
 									target="_blank"
 									aria-label="Check out my Google Cybersecurity certificate"
 								/>
@@ -106,7 +106,7 @@ const Home = () => {
 								<Button
 									button=""
 									buttonClassName="icca clickable pages"
-									buttonHref=""
+									buttonHref="/assets/certifications/INE-Certified-Cloud-Associate.pdf"
 									target="_blank"
 									aria-label="Check out my ICCA certificate"
 								/>
@@ -119,7 +119,7 @@ const Home = () => {
 								<Button
 									button=""
 									buttonClassName="nse clickable pages"
-									buttonHref="https://kunalwalavalkar.vercel.app/NSE_Certification.pdf"
+									buttonHref="/assets/certifications/NSE-Certification.pdf"
 									target="_blank"
 									aria-label="Check out my NSE certificate"
 								/>
