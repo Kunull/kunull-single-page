@@ -36,7 +36,7 @@ const Projects = ({}) => {
 									ariaLabel="Check out the Empowershell project"
 								/>
 							</div>
-							<p className="description">POWERSHELL UTILITY SCRIPT THAT COMPARES HASHES TO CHECK THE INTEGRITY OF FILES.</p>
+							<p className="description"> THAT COMPARES HASHES TO CHECK THE INTEGRITY OF FILES.</p>
 						</li>
 		
 						<li>
