@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Projects = ({}) => {
 	return (
-		<>
+		<div>
 				<div className="currentPage section-divider">
 					<span>KUNULL / PROJECTS ►</span>
 				</div>
@@ -176,7 +176,7 @@ const Projects = ({}) => {
 					</ul>
 				</p>
 
-		</>
+		</div>
 	);
 };
 
