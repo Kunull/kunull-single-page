@@ -3,7 +3,7 @@ import './button.css';
 import '../navbar/navbar.css';
 import Link from 'next/link';
 
-const Projects = ({}) => {
+const Projects = () => {
 	return (
 		<div>
 				<div className="currentPage section-divider">
