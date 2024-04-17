@@ -1,4 +1,4 @@
-import Projects from '../components/projects/projects'
+import Projects from '../components/projects/projects';
 import Button from '../components/button/button';
 import Navbar from '../components/navbar/navbar';
 import Footer from '../components/footer/footer';
