@@ -1,4 +1,4 @@
-import Button from '../components/button/button';
+import Button from '../button/button';
 import './button.css';
 import '../navbar/navbar.css';
 import Link from 'next/link';
