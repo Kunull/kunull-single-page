@@ -6,77 +6,77 @@ import Link from 'next/link';
 const Projects = () => {
 	return (
 		<div>
-				<div className="currentPage section-divider">
-					<span>KUNULL / PROJECTS ►</span>
-				</div>
+			<div className="currentPage section-divider">
+				<span>KUNULL / PROJECTS ►</span>
+			</div>
 			
 
-				<p className='spacing'>
-					<ul>
-						<li>
-							<div className="capital">
-								<Button
-									button=""
-									buttonClassName="cipher clickable pages"
-									buttonHref="https://d-cipher.streamlit.app/"
-									target="_blank"
-									ariaLabel="Check out the D Cipher project"
-								/>
-							</div>
-							<p className="description">CRYPTOGRAPHY TOOLKIT THAT ALLOWS USERS TO ENCRYPT AND DECRYPT THEIR TEXT USING AN ALGORITHM OF THEIR CHOICE.</p>
-						</li>
+			<p className='spacing'>
+				<ul>
+					<li>
+						<div className="capital">
+							<Button
+								button=""
+								buttonClassName="cipher clickable pages"
+								buttonHref="https://d-cipher.streamlit.app/"
+								target="_blank"
+								ariaLabel="Check out the D Cipher project"
+							/>
+						</div>
+						<p className="description">CRYPTOGRAPHY TOOLKIT THAT ALLOWS USERS TO ENCRYPT AND DECRYPT THEIR TEXT USING AN ALGORITHM OF THEIR CHOICE.</p>
+					</li>
 		
-						<li>
-							<div className="capital">
-								<Button
-									button=""
-									buttonClassName="empower clickable pages"
-									buttonHref="https://github.com/KuNull/Custos-Shell"
-									target="_blank"
-									ariaLabel="Check out the Empowershell project"
-								/>
-							</div>
-							<p className="description">POWERSHELL UTILITY SCRIPT THAT COMPARES HASHES TO CHECK THE INTEGRITY OF FILES.</p>
-						</li>
+					<li>
+						<div className="capital">
+							<Button
+								button=""
+								buttonClassName="empower clickable pages"
+								buttonHref="https://github.com/KuNull/Custos-Shell"
+								target="_blank"
+								ariaLabel="Check out the Empowershell project"
+							/>
+						</div>
+						<p className="description">POWERSHELL UTILITY SCRIPT THAT COMPARES HASHES TO CHECK THE INTEGRITY OF FILES.</p>
+					</li>
 		
-						<li>
-							<div className="capital">
-								<Button
-									button=""
-									buttonClassName="hexplorer clickable pages"
-									buttonHref="https://github.com/KuNull/Hexplorer/"
-									target="_blank"
-									ariaLabel="Check out the Hexplorer project"
-								/>
-							</div>
-							<p className="description">COMMAND-LINE UTILITY TO DUMP THE BINARY AND HEXADECIMAL RENDITION OF A FILE.</p>
-						</li>
+					<li>
+						<div className="capital">
+							<Button
+								button=""
+								buttonClassName="hexplorer clickable pages"
+								buttonHref="https://github.com/KuNull/Hexplorer/"
+								target="_blank"
+								ariaLabel="Check out the Hexplorer project"
+							/>
+						</div>
+						<p className="description">COMMAND-LINE UTILITY TO DUMP THE BINARY AND HEXADECIMAL RENDITION OF A FILE.</p>
+					</li>
 		
-						<li>
-							<div className="capital">
-								<Button
-									button=""
-									buttonClassName="netSleuth clickable pages"
-									buttonHref="https://github.com/KuNull/NetSleuth/"
-									target="_blank"
-									ariaLabel="Check out the NetSleuth project"
-								/>
+					<li>
+						<div className="capital">
+							<Button
+								button=""
+								buttonClassName="netSleuth clickable pages"
+								buttonHref="https://github.com/KuNull/NetSleuth/"
+								target="_blank"
+								ariaLabel="Check out the NetSleuth project"
+							/>
 							</div>
-							<p className="description">NETWORK SCANNER THAT FINDS ALL THE DEVICES CONNECTED IN THE NETWORK.</p>
-						</li>
+						<p className="description">NETWORK SCANNER THAT FINDS ALL THE DEVICES CONNECTED IN THE NETWORK.</p>
+					</li>
 		
-						<li>
-							<div className="capital">
-								<Button
-									button=""
-									buttonClassName="ossoc clickable pages"
-									buttonHref="https://ossoc.gitbook.io/"
-									target="_blank"
-									ariaLabel="Check out the OpenSOC project"
-								/>
+					<li>
+						<div className="capital">
+							<Button
+								button=""
+								buttonClassName="ossoc clickable pages"
+								buttonHref="https://ossoc.gitbook.io/"
+								target="_blank"
+								ariaLabel="Check out the OpenSOC project"
+							/>
 							</div>
-							<p className="description">PROOF OF CONCEPT FOR SECURITY OPERATIONS CENTRE MADE USING OPEN SOURCE TOOLS.</p>
-						</li>
+						<p className="description">PROOF OF CONCEPT FOR SECURITY OPERATIONS CENTRE MADE USING OPEN SOURCE TOOLS.</p>
+					</li>
 		
 		{/*				
 						<li>
@@ -91,18 +91,18 @@ const Projects = () => {
 							<span className="description">Local password manager with a built-in web server/interface.</span>
 						</li>
 		*/}
-						<li>
-							<div className="capital">
-								<Button
-									button=""
-									buttonClassName="probe clickable pages"
-									buttonHref="https://github.com/KuNull/Probe"
-									target="_blank"
-									ariaLabel="Check out the Probe project"
-								/>
-							</div>
-							<p className="description">PORTSCANNER THAT IMPLEMENTS MULTITHREADING FOR SWIFT SCANS.</p>
-						</li>
+					<li>
+						<div className="capital">
+							<Button
+								button=""
+								buttonClassName="probe clickable pages"
+								buttonHref="https://github.com/KuNull/Probe"
+								target="_blank"
+								ariaLabel="Check out the Probe project"
+							/>
+						</div>
+						<p className="description">PORTSCANNER THAT IMPLEMENTS MULTITHREADING FOR SWIFT SCANS.</p>
+					</li>
 		
 		{/*
 						<li>
@@ -118,18 +118,18 @@ const Projects = () => {
 						</li>
 		*/}
 		
-						<li>
-							<div className="capital">
-								<Button
-									button=""
-									buttonClassName="signum clickable pages"
-									buttonHref="https://signum-mu.vercel.app/"
-									target="_blank"
-									ariaLabel="Check out the Signum project"
-								/>
-							</div>
-							<p className="description">WEB APP TO GENERATE PASSWORDS AND CHECK THEIR STRENGTH.</p>
-						</li>
+					<li>
+						<div className="capital">
+							<Button
+								button=""
+								buttonClassName="signum clickable pages"
+								buttonHref="https://signum-mu.vercel.app/"
+								target="_blank"
+								ariaLabel="Check out the Signum project"
+							/>
+						</div>
+						<p className="description">WEB APP TO GENERATE PASSWORDS AND CHECK THEIR STRENGTH.</p>
+					</li>
 	
 		{/*
 						<li>
@@ -161,21 +161,20 @@ const Projects = () => {
 						</li>
 		*/}
 						
-						<li>
-							<div className="capital">
-								<Button
-									button=""
-									buttonClassName="riskore clickable pages"
-									buttonHref="https://riskore.vercel.app/"
-									target="_blank"
-									ariaLabel="Check out the RiSkore project"
-								/>
-							</div>
-							<p className="description">WEB APP TO EVALUATE THE RISK FACED BY AN ORGANIZATION.</p>
-						</li>
-					</ul>
-				</p>
-
+					<li>
+						<div className="capital">
+							<Button
+								button=""
+								buttonClassName="riskore clickable pages"
+								buttonHref="https://riskore.vercel.app/"
+								target="_blank"
+								ariaLabel="Check out the RiSkore project"
+							/>
+						</div>
+						<p className="description">WEB APP TO EVALUATE THE RISK FACED BY AN ORGANIZATION.</p>
+					</li>
+				</ul>
+			</p>
 		</div>
 	);
 };
