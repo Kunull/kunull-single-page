@@ -1,5 +1,5 @@
 import Button from '../button/button';
-import './button.css';
+import '../button/button.css';
 import '../navbar/navbar.css';
 import Link from 'next/link';
 
