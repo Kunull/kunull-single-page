@@ -12,7 +12,7 @@ const Certifications = () => {
 			
 
 			<p className='spacing'>
-	  			<ul>
+	  			<ul className="threeColumnUl">
 	  				<li>
 	  					<div className="capital">
 	  						<Button
