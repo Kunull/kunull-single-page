@@ -9,108 +9,37 @@ const Experience = () => {
 			<div className="currentPage section-divider">
 				<span>KUNULL / EXPERIENCE ►</span>
 			</div>
-			
 
+		
 			<p className='spacing'>
-	  			<ul className="threeColumnUl">
-	  				<li>
-	  					<div className="capital">
-	  						<Button
-	  							button=""
-	  							buttonClassName="ejpt clickable pages"
-	  							buttonHref="/assets/certifications/eLearnSecurity-Junior-Penetration-Tester.pdf"
-	  							target="_blank"
-	  							aria-label="Check out my EJPT certificate"
-	  						/>
-	  					</div>
-	  					<p className="description">E-LEARN SECURITY JUNIOR PENETRATION TESTER.</p>
-	  				</li>
-	       
-	  {/*
-	  					<li>
-	  						<div className="capital">
-	  							<Button
-	  								button=""
-	  								buttonClassName="cc clickable pages"
-	  								buttonHref=""
-	  								target="_blank"
-	  								ariaLabel="Check out my Certified in Cybersecurity certificate"
-	  							/>
-	  						</div>
-	  						<p className="description">ISC2 Certified in Cybersecurity.</p>
-	  					</li>
-	  */} 
-	  
-	  				<li>
-	  					<div className="capital">
-	  						<Button
-	  							button=""
-	  							buttonClassName="google clickable pages"
-	  							buttonHref="/assets/certifications/Google-Cybersecurity-Professional-Certificate.pdf"
-	  							target="_blank"
-	  							ariaLabel="Check out my Google Cybersecurity Professional certificate"
-	  						/>
-	  					</div>
-	  					<p className="description">GOOGLE CYBERSECURITY PROFESSIONAL CERTIFICATE.</p>
-	  				</li>
-	  
-	  				<li>
-	  					<div className="capital">
-	  						<Button
-	  							button=""
-	  							buttonClassName="icca clickable pages"
-	  							buttonHref="/assets/certifications/INE-Certified-Cloud-Associate.pdf"
-	  							target="_blank"
-	  							ariaLabel="Check out my ICCA certificate"
-	  						/>
-	  					</div>
-	  					<p className="description">INE CERTIFIED CLOUD ASSOCIATE.</p>
+				<ul className="singleColumnUl spacing">
+					<li>
+						<Button
+							button=""
+							buttonClassName="company2 clickable pages"
+							buttonHref=""
+							target="_blank"
+						/>				
+						<p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio eu feugiat pretium nibh ipsum consequat. Platea dictumst vestibulum rhoncus est. At volutpat diam ut venenatis tellus in metus vulputate eu. Eget mauris pharetra et ultrices neque. Nec nam aliquam sem et tortor consequat id porta nibh. Tempor commodo ullamcorper a lacus. Donec pretium vulputate sapien nec. Nibh mauris cursus mattis molestie a. Orci sagittis eu volutpat odio facilisis mauris sit. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis. Amet risus nullam eget felis eget nunc lobortis.</p>
 					</li>
-	  
-	  				<li>
-	  					<div className="capital">
-	  						<Button
-	  							button=""
-	  							buttonClassName="nse clickable pages"
-	  							buttonHref="/assets/certifications/NSE-Certification.pdf"
-	  							target="_blank"
-	  							ariaLabel="Check out my NSE certificate"
-	  						/>
-	  					</div>
-	  					<p className="description">FORTINET TRAINING INSTITUTE NETWORK SECURITY EXPERT.</p>
-	  				</li>
-	  
-	  {/*
-	  					<li>
-	  						<div className="capital">
-	  							<Button
-	  								button=""
-	  								buttonClassName="pnpt clickable pages"
-	  								buttonHref=""
-	  								target="_blank"
-	  								ariaLabel="Check out my Practical Network Penetration Tester certificate"
-	  							/>
-	  						</div>
-	  						<p className="description">TCM Security Practical Network Penetration Tester certificate.</p>
-	  					</li>
-	  */}
-	  
-	  	{/*
-	  					<li>
-	  						<div className="capital">
-	  							<Button
-	  								button=""
-	  								buttonClassName="security-plus clickable pages"
-	  								buttonHref=""
-	  								target="_blank"
-	  								ariaLabel="Check out my CompTIA Security+ certificate"
-	  							/>
-	  						</div>
-	  						<p className="description">CompTIA Security+ (SY0-701) certificate.</p>
-	  					</li>
-	  	*/}
-	  
-	  	      		</ul>
+		
+
+					<li>
+						<Button 
+							button="" 
+							buttonClassName="company1 clickable pages" 
+							buttonHref="https://cybersecuredindia.com/" 
+							target="_blank"
+							aria-label="Go to the Cyber Secured India website"
+						/>
+							
+						<p className="description">VAPT Intern</p>
+						<p className="description">March 2023 - May 2023</p>
+						<p className="description">Performed penetration tests to simulate real-world attacks on systems and networks.</p>	
+						<p className="description">Used tools like Burp Suite and OWASP ZAP for web application security testing.</p>
+						<p className="description">Assessed the security of web applications by identifying and exploiting vulnerabilities.</p>
+					</li>
+				</ul>
 			</p>
 		</div>
 	);
