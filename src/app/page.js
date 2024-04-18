@@ -1,4 +1,5 @@
 import Projects from '../components/projects/projects';
+import Cerifications from '../components/certifications/certifications';
 import Button from '../components/button/button';
 import Navbar from '../components/navbar/navbar';
 import Footer from '../components/footer/footer';
@@ -67,68 +68,8 @@ const Home = () => {
 
 
 
+				<Certifications/>
 
-
-				<div className="currentPage section-divider">
-					<span>KUNULL / CERTIFICATIONS ►</span>
-				</div>
-			
-
-				<p className='spacing'>
-					<ul className="threeColumnUl">
-						<li>
-							<div className="capital">
-								<Button
-									button=""
-									buttonClassName="ejpt clickable pages"
-									buttonHref="/assets/certifications/eLearnSecurity-Junior-Penetration-Tester.pdf"
-									target="_blank"
-									aria-label="Check out my EJPT certificate"
-								/>
-							</div>
-							<p className="description">eLearnSecurity Junior Penetration Tester.</p>
-						</li>
-				
-						<li>
-							<div className="capital">
-								<Button
-									button=""
-									buttonClassName="google clickable pages"
-									buttonHref="/assets/certifications/Google-Cybersecurity-Professional-Certificate.pdf"
-									target="_blank"
-									aria-label="Check out my Google Cybersecurity certificate"
-								/>
-							</div>
-							<p className="description">Google Cybersecurity Professional Certitificate.</p>
-						</li>
-		
-						<li>
-							<div className="capital">
-								<Button
-									button=""
-									buttonClassName="icca clickable pages"
-									buttonHref="/assets/certifications/INE-Certified-Cloud-Associate.pdf"
-									target="_blank"
-									aria-label="Check out my ICCA certificate"
-								/>
-							</div>
-							<p className="description">INE Certified Cloud Associate.</p>
-						</li>
-		
-						<li>
-							<div className="capital">
-								<Button
-									button=""
-									buttonClassName="nse clickable pages"
-									buttonHref="/assets/certifications/NSE-Certification.pdf"
-									target="_blank"
-									aria-label="Check out my NSE certificate"
-								/>
-							</div>
-							<p className="description">Fortinet Training Institute Network Security Expert.</p>
-						</li>
-					</ul>
-				</p>
 
 
 				<Projects/>
