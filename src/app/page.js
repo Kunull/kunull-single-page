@@ -1,3 +1,4 @@
+import Header from '../components/header/header';
 import Projects from '../components/projects/projects';
 import Certifications from '../components/certifications/certifications';
 import Button from '../components/button/button';
@@ -43,33 +44,10 @@ const Home = () => {
 			/>
 					
 			<main className="capital">
-				<p className='spacing'>
-					<span className="personal">HELLO. I'M </span>
-					<span className="kunalWalavalkar nonClickable pages">
-{/*						
-						<div class="profilepic">
-  							<img src={profilepic} width="200" alt=""/>
-						</div>	
-*/}					
-					</span>	
-{/*	
-					<span className="personal">, AKA </span>
-					<span className="knign nonClickable pages">
-*/}	
-{/*						
-						<div class="profilepic2">
-  							<img src={profilepic2} width="200" alt=""/>
-						</div>	
-					
-     					</span>
-*/}	
-					<span className="personal">, A COMPUTER ENGINEERING AND CYBER SECURITY STUDENT.</span>
-				</p>
-
+				<Header/>
 
 
 				<Certifications/>
-
 
 
 				<Projects/>
