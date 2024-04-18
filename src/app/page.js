@@ -1,5 +1,5 @@
 import Projects from '../components/projects/projects';
-import Cerifications from '../components/certifications/certifications';
+import Certifications from '../components/certifications/certifications';
 import Button from '../components/button/button';
 import Navbar from '../components/navbar/navbar';
 import Footer from '../components/footer/footer';
