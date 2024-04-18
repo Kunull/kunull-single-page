@@ -1,6 +1,7 @@
 import Header from '../components/header/header';
 import Projects from '../components/projects/projects';
 import Certifications from '../components/certifications/certifications';
+import Contact from '../components/contact/contact'
 import Button from '../components/button/button';
 import Navbar from '../components/navbar/navbar';
 import Footer from '../components/footer/footer';
@@ -92,6 +93,9 @@ const Home = () => {
 					</ul>
 
 				</p>
+
+
+				<Contact/>
 
 			</main>
 
