@@ -26,7 +26,7 @@ const Header = () => {
 					
      					</span>
 */}	
-					<span className="personal">, A CYBER SECURITY RESEARCHER AND OFFENSIVE DEVELOPER.</span>
+					<span className="personal">, A COMPUTER ENGINEERING AND CYBER SECURITY STUDENT.</span>
 				</p>
 
 		</div>
